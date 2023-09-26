@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loginform</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app-wrap">
+      <div class="header">
+        <h2>Login Form</h2>
+      </div>
+      <div id="form" class="form">
+        <label for="email">Enter Your Email</label>
+        <input type="email" name="email" id="email" required /><br />
+        <label for="password">Enter your password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          minlength="8"
+          required
+        /><br /><br />
+        <button type="submit" class="submitbtn" id="submitbtn">Login</button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
